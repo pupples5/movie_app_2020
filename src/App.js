@@ -49,7 +49,7 @@ array에 정의한 function을 실행시키고 그 결과 값을 어레이로 �
 Food.propTypes = {
     name : PropTypes.string.isRequired,
     picture : PropTypes.string.isRequired,
-    rating : PropTypes.string.isRequired
+    rating : PropTypes.number.isRequired
 
  }
 
